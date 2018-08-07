@@ -25,7 +25,7 @@
 	<repositories>
 		<repository>
 			<id>maven-public</id>
-			<url>http://eec-nexus-01:8081/repository/maven-public/</url>
+			<url>http://eec-app-02:8081/repository/maven-public/</url>
 			<releases>
 				<enabled>true</enabled>
 			</releases>
@@ -39,7 +39,7 @@
 	<pluginRepositories>
 		<pluginRepository>
 			<id>maven-public</id>
-			<url>http://eec-nexus-01:8081/repository/maven-public/</url>
+			<url>http://eec-app-02:8081/repository/maven-public/</url>
 			<releases>
 				<enabled>true</enabled>
 			</releases>
@@ -53,12 +53,12 @@
 		<repository>
 			<id>maven-releases</id>
 			<name>Internal Releases</name>
-			<url>http://eec-nexus-01:8081/repository/maven-releases/</url>
+			<url>http://eec-app-02:8081/repository/maven-releases/</url>
 		</repository>
 		<snapshotRepository>
 			<id>maven-snapshots</id>
 			<name>Internal Releases</name>
-			<url>http://eec-nexus-01:8081/repository/maven-snapshots/</url>
+			<url>http://eec-app-02:8081/repository/maven-snapshots/</url>
 		</snapshotRepository>
 	</distributionManagement>
 
@@ -116,7 +116,7 @@
 						</executions>
 						<configuration>
 							<serverId>nexus-releases</serverId>
-							<nexusUrl>http://eec-nexus-01:8081/</nexusUrl>
+							<nexusUrl>http://eec-app-02:8081/</nexusUrl>
 							<skipStaging>true</skipStaging>
 						</configuration>
 					</plugin>
