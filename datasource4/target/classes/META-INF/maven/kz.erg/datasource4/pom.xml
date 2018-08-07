@@ -16,9 +16,9 @@
   </properties>
  
 	<scm>
-	   <connection>scm:git:https://vc-alm-prd.group.erg.kz/igor.kondratyuk/datasource.git</connection>
-	   <url>https://vc-alm-prd.group.erg.kz/igor.kondratyuk/datasource</url>
-	   <developerConnection>scm:git:https://vc-alm-prd.group.erg.kz/igor.kondratyuk/datasource.git</developerConnection>
+	   <connection>scm:git:https://github.com/IgorKondratyuk/datasource4.git</connection>
+	   <url>https://github.com/IgorKondratyuk/datasource4</url>
+	   <developerConnection>scm:git:https://github.com/IgorKondratyuk/datasource4.git</developerConnection>
 	   <tag>${version}</tag>
 	</scm>
 
