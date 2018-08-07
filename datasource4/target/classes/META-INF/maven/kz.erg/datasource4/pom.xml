@@ -4,7 +4,7 @@
 
   <groupId>kz.erg</groupId>
   <artifactId>datasource4</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.1</version>
   <packaging>jar</packaging>
 
   <name>datasource4</name>
