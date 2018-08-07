@@ -3,7 +3,7 @@
 
   <groupId>kz.erg</groupId>
   <artifactId>datasource4</artifactId>
-  <version>0.0.1</version>
+  <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>datasource4</name>
@@ -18,7 +18,7 @@
 	   <connection>scm:git:https://github.com/IgorKondratyuk/datasource4.git</connection>
 	   <url>https://github.com/IgorKondratyuk/datasource4</url>
 	   <developerConnection>scm:git:https://github.com/IgorKondratyuk/datasource4.git</developerConnection>
-	   <tag>0.0.1-SNAPSHOT</tag>
+	   <tag>${version}</tag>
 	</scm>
 
 	<repositories>
@@ -151,7 +151,7 @@
 		<plugin>
 		   <groupId>org.apache.maven.plugins</groupId>
 		   <artifactId>maven-release-plugin</artifactId>
-		   <version>2.5.2</version>
+		   <version>2.5.3</version>
 		   <configuration>
 		      <tagNameFormat>${version}</tagNameFormat>
 		      <autoVersionSubmodules>true</autoVersionSubmodules>
